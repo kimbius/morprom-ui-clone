@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+.container {
+    margin: 5vh auto;
+    width: 25vw;
+    height: 85vh;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+nav {
+    background-color: rgb(0, 103, 56);
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+nav .user-info {
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+nav .user-info h1 {
+    padding-left: 8px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav .user-info .user-icon {
+    font-size: 32px;
+    color: #fff;
+    background-color: rgb(2, 19, 92);
+    border-radius: 100%;
+    padding: 5px 7px;
+}
+
+nav .user-bell button {
+    border: none;
+    background: transparent;
+}
+
+nav .user-bell i {
+    color: #fff;
+    font-size: 25px;
+}
+
+header {
+    padding: 50px;
+    background-color: rgb(0, 103, 56);
+    padding: 25px 30px;
+    height: calc(30vh);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+}
+
+.items-row {
+    display: grid;
+    grid-gap: 8px;
+    padding: 20px 15px;
+    grid-template-columns: auto auto auto;
+}
+
+.item {
+    width: 100%;
+    background: rgb(241, 243, 242);
+    border-radius: 10px;
+    padding: 25px 0;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    text-align: center;
+
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+.item i {
+    font-size: 35px;
+    color: rgb(0, 103, 56);
+}
+
+.item h2 {
+    font-weight: 400;
+}
+
+.item p {
+    font-weight: 500;
+    margin-top: 10px;
+    color: #000;
+}
+
+.item-status {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-image: url(https://wsuguardian.com/wp-content/uploads/2021/04/pexels-nataliya-vaitkevich-5863389-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-status h2 {
+    padding-left: 15px;
+}
