@@ -7,4 +7,4 @@ Clone UI ครั้งแรกกับ HTML & CSS
  - Google Font ( Kanit )
 
 # Images
-![sneak](https://media.discordapp.net/attachments/850645293464682546/905803995312951306/unknown.png?width=400&height=676)
+![sneak](https://media.discordapp.net/attachments/850645293464682546/906026449549541417/unknown.png?width=402&height=676)
